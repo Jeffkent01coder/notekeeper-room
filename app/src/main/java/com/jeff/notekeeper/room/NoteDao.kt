@@ -22,7 +22,6 @@ interface NoteDao {
     @Insert
    fun insertNote(note: Note)
 
-
     // Delete an existing note from the database.
     @Delete
     fun deleteNote(note: Note)
